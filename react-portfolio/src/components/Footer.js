@@ -12,7 +12,10 @@ return(
         <Container>
             <Row>
                 <Col className="align-items-center col-6">
-                
+                <p> Thank you for visiting my portfolio. Let's connect and make something awesome together! Reach out to me on [LinkedIn] or [Twitter].
+
+© 2023 [Your Name]. All Rights Reserved.</p>
+
                 </Col>
             </Row>
         </Container>
