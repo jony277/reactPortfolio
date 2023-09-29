@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import Image from 'react-bootstrap/Image';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
-const Header = () => {
-    return (
-        <header>
-            <h1>Jonathan Gutierrez</h1>
-        </header>
-    );
+
+export default function Header(){
+return(
+    <div>
+        <Container>
+            <Row>
+                <Col>
+                    <h1 className="text-end">The Portfolio of Jonathan Gutierrez</h1>
+                </Col>
+            </Row>
+        </Container>
+    </div>
+)
 };
-
-export default Header;

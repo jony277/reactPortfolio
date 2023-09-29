@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  background-color: #15202B; /* Deep blue background */
+  color: #FFFFFF; /* White text */
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navigation */
+.nav-tabs {
+  background-color: #1DA1F2; /* Twitter-like blue for navigation */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item {
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link.active {
+  color: #000000; /* Black text for active link */
+  background-color: #15202B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Pages */
+
+/* Home Page */
+.home-page {
+  background-color: #15202B;
+  padding: 2rem;
+}
+
+/* Portfolio Page */
+.portfolio-page {
+  background-color: #243447;
+  padding: 2rem;
+}
+
+/* Blog Page */
+.blog-page {
+  background-color: #15202B;
+  padding: 2rem;
+}
+
+/* Contact Page */
+.contact-page {
+  background-color: #243447;
+  padding: 2rem;
+}
+
+/* Buttons */
+.btn-custom {
+  background-color: #1DA1F2;
+  color: #FFFFFF;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .home-page, .portfolio-page, .blog-page, .contact-page {
+    padding: 1rem;
   }
 }
